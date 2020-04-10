@@ -4,14 +4,14 @@
 
 My backbone network is resnet50, add a few 1x1 and 3x3 conv to fine-tune the resnet. I also change the 7x7 feature maps to 14x14 feature maps and use the fully convolutional instead of convolution & fully connected which has been Implemented in the original paper.
 
-![avatar](https://github.com/kevin655/YOLOv1/blob/master/000283.jpg)
-
 ![avatar](https://github.com/kevin655/YOLOv1/blob/master/bike.jpg)
 
+![avatar](https://github.com/kevin655/YOLOv1/blob/master/000319.jpg)
+
 ## Train on voc2012+2007
-| model                | backbone | map@voc2007test  | FPS  |
+| model                | backbone | map on voc07test  | FPS  |
 | -------------------- | -------------- | ---------- | -------   |
-| ResNet+YOLO   |   ResNet50        | 66.5%      |  76   |
+| YOLO Resnet50   |   ResNet50        | 68.4%      |  76   |
 | YOLO original |   VGG-16          | 63.4%      |  45   |
 
 
