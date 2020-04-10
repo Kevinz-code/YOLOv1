@@ -54,11 +54,20 @@ This will automatically start train on VOC07+12, and test on VOC07 every epochs.
 
 ### Details
 Some parameters Setting are very Important. For convenience, I list them below.
-| model                |  map on VOC07test  | FPS  |
-| -------------------- |  ---------- | -------   |
-| YOLO Resnet50   |   68.4%      |  76   |
-| YOLO original |  63.4%      |  45   |
 
+**For Training***
+| learning rate               |  3e-3, 1e-3  | 
+| -------------------- |  ---------- | 
+| weight_decay  |   0.0005      |  
+| miniBatch |  16      |  
+| epoch |  30      |  
+| momentum |  0.9      |  
+| nms_thresh |  0.26      | 
+
+**For Testing**
+| c_thresh              |  0.3  | 
+| -------------------- |  ---------- | 
+| nms_thresh  |   0.26      |  
 
 
 
