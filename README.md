@@ -6,7 +6,7 @@ My backbone network is resnet50, add a few 1x1 and 3x3 conv to fine-tune the res
 
 ![avatar](https://github.com/kevin655/YOLOv1/blob/master/000283.jpg)
 
-![avatar](https://github.com/kevin655/YOLOv1/blob/master/000313.jpg)
+![avatar](https://github.com/kevin655/YOLOv1/blob/master/000319.jpg)
 
 ## Train on voc2012+2007
 | model                | backbone | map@voc2007test  | FPS  |
