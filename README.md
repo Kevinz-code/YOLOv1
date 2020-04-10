@@ -26,7 +26,7 @@ My backbone network is resnet50, add a few 1x1 and 3x3 conv to fine-tune the res
 ### Quick Start
 Download the file 
 ```shell
-git clone https://github.com/uoip/KCFpy.git
+git clone https://github.com/kevin655/YOLOv1.git
 python demo.py
 ```
 And You will find the demo results picture in 
