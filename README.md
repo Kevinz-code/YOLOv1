@@ -57,8 +57,8 @@ This will automatically start train on VOC07+12, and test on VOC07 every epochs.
 Some parameters Setting are very Important. For convenience, I list them below.
 
 **For Training**
-| -------------------- |  ---------- | 
 | learning rate               |  3e-3, 1e-3  | 
+| -------------------- |  ---------- | 
 | weight_decay  |   0.0005      |  
 | miniBatch |  16      |  
 | epoch |  30      |  
@@ -69,8 +69,6 @@ Some parameters Setting are very Important. For convenience, I list them below.
 | c_thresh              |  0.3  | 
 | -------------------- |  ---------- | 
 | nms_thresh  |   0.26      |  
-
-Thanks for reading.
 
 
 
