@@ -1,4 +1,4 @@
-# YOLOv1 based on Pytorch
+# YOLOv1 Pytorch
 
 **For better performance, this not the same as the original [paper](https://arxiv.org/pdf/1506.02640.pdf).**
 
