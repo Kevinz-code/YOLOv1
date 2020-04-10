@@ -6,9 +6,9 @@
 
 My backbone network is resnet50, add a few 1x1 and 3x3 conv to fine-tune the resnet. I also change the 7x7 feature maps to 14x14 feature maps and use the fully convolutional instead of convolution & fully connected which has been Implemented in the original paper.
 
-![avatar](https://github.com/kevin655/YOLOv1/blob/master/bike.jpg)
+![avatar](http://chuantu.xyz/t6/728/1586530590x992239408.jpg)
 
-![avatar](https://github.com/kevin655/YOLOv1/blob/master/000319.jpg)
+![avatar](http://chuantu.xyz/t6/728/1586530639x992239408.jpg)
 
 ## Trained on VOC2007+VOC2012
 | model                |  map on VOC07test  | FPS  |
