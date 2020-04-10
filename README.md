@@ -27,16 +27,26 @@ Download the file
 git clone https://github.com/uoip/KCFpy.git
 python demo.py
 ```
-And You will find the demo results picture in ./demo/demo_results
+And You will find the demo results picture in 
+```shell
+./demo/demo_results
+```
 
 ### Training
-1. Download voc2012train adn voc2007 dataset
+1. Download VOC2012train and VOC2007 dataset
+2. Download VOC2007test dataset
+3. Put them in the dir 
+```shell
+../Image/
+```
 
-2. Download voc2007test dataset
-
-to train from scratch, run
+To train from scratch, run
 ```shell
 python main.py -s 0 
+```
+To get parameters help, run
+```shell
+python main.py -h
 ```
 
 ### Others
