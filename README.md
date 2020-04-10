@@ -10,10 +10,10 @@ I achieved 0.684 mAP on VOC07test, 76fps on RTX2080Ti**
 ![avatar](https://github.com/kevin655/YOLOv1/blob/master/000319.jpg)
 
 ## Trained on VOC2007+VOC2012
-| model                | backbone | map on VOC07test  | FPS  |
-| -------------------- | -------------- | ---------- | -------   |
-| YOLO Resnet50   |   ResNet50        | 68.4%      |  76   |
-| YOLO original |   VGG-16          | 63.4%      |  45   |
+| model                |  map on VOC07test  | FPS  |
+| -------------------- |  ---------- | -------   |
+| YOLO Resnet50   |   68.4%      |  76   |
+| YOLO original |  63.4%      |  45   |
 
 
 ### Prerequisites
@@ -54,9 +54,10 @@ This will automatically start train on VOC07+12, and test on VOC07 every epochs.
 
 ### Details
 Some parameters Setting are very Important. For convenience, I list them below.
-
-| YOLO Resnet50   |   ResNet50        | 68.4%      |  76   |
-| YOLO original |   VGG-16          | 63.4%      |  45   |
+| model                |  map on VOC07test  | FPS  |
+| -------------------- |  ---------- | -------   |
+| YOLO Resnet50   |   68.4%      |  76   |
+| YOLO original |  63.4%      |  45   |
 
 
 
