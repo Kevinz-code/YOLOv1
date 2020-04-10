@@ -1,6 +1,7 @@
 # YOLOv1
 
 **For better performance, this not the same as the original [paper](https://arxiv.org/pdf/1506.02640.pdf). 
+
 I achieved 0.684 mAP on VOC07test, 76fps on RTX2080Ti**
 
 **My backbone network is resnet50, add a few 1x1 and 3x3 conv to fine-tune the resnet. I also change the 7x7 feature maps to 14x14 feature maps and use the fully convolutional instead of convolution & fully connected which has been Implemented in the original paper.**
