@@ -4,7 +4,7 @@
 
 **I achieved 0.684 mAP on VOC07test, 76fps on RTX2080Ti**
 
-My backbone network is resnet50, add a few 1x1 and 3x3 conv to fine-tune the resnet. I also change the 7x7 feature maps to 14x14 feature maps and use the fully convolutional instead of convolution & fully connected which has been Implemented in the original paper.
+For better training speed, I changed the backbone from vgg to resnet50. And add a few 1x1 and 3x3 conv to fine-tune the resnet. I also change the 7x7 feature maps to 14x14 feature maps and and dropout the fully connected which has been Implemented in the original paper.
 
 ![avatar](http://chuantu.xyz/t6/728/1586530590x992239408.jpg)
 
