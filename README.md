@@ -65,7 +65,7 @@ Some parameters Setting are very Important. For convenience, I list them below.
 | momentum |  0.9      |  
 
 **For Testing**
-| c_thresh              |  0.3  | 
+| confidence_thresh              |  0.3  | 
 | -------------------- |  ---------- | 
 | nms_thresh  |   0.26      |  
 
