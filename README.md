@@ -29,13 +29,13 @@ Download the file
 git clone https://github.com/kevin655/YOLOv1.git
 python demo.py
 ```
-And You will find the demo results picture in 
+And You will find the demo results pictures in 
 ```shell
 ./demo/demo_results
 ```
 
 ### Training
-1. Download VOC2012train and VOC2007 dataset
+1. Download VOC2012train and VOC2007train dataset
 2. Download VOC2007test dataset
 3. Put them in the dir 
 ```shell
@@ -54,7 +54,7 @@ This will automatically start train on VOC07+12, and test on VOC07 every epochs.
 
 
 ### Details
-Some parameters Setting are very Important. For convenience, I list them below.
+Some parameters Setting are very Important. And I spent a long time trying to find these best parameters. For convenience, I list them below.
 
 **For Training**
 | learning rate               |  3e-3, 1e-3  | 
