@@ -63,7 +63,6 @@ Some parameters Setting are very Important. For convenience, I list them below.
 | miniBatch |  16      |  
 | epoch |  30      |  
 | momentum |  0.9      |  
-| nms_thresh |  0.26      | 
 
 **For Testing**
 | c_thresh              |  0.3  | 
