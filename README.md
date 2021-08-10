@@ -26,7 +26,7 @@ For better training speed, I changed the backbone from vgg to resnet50. And add 
 ### Quick Start
 Download the file 
 ```shell
-git clone https://github.com/kevin655/YOLOv1.git
+git clone https://github.com/Kevinz-code/YOLOv1.git
 python demo.py
 ```
 And You will find the demo results pictures in 
